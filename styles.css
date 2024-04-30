@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Landing Page styles */
+.landing {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.landing h2 {
+  margin-bottom: 1rem;
+}
+
+.landing button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.landing button:hover {
+  background-color: #555;
+}
+
+/* User Page styles */
+#logout-btn {
+  background-color: #dc3545;
+}
+
+#logout-btn:hover {
+  background-color: #c82333;
+}
